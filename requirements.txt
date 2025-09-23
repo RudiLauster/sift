@@ -1,0 +1,27 @@
+appdirs
+donfig>=0.8.1
+h5py
+imageio
+av
+matplotlib
+netCDF4
+numba
+numpy
+pillow
+pyproj
+pyqt5>=5.15
+pyqtgraph
+pyqtwebengine
+pyshp
+pyyaml
+rasterio
+satpy
+scikit-image
+shapely
+sqlalchemy
+trollsift
+vispy>=0.10.0
+pygrib;sys_platform=="linux" or sys_platform=="darwin"
+ecmwflibs
+eccodes
+cfgrib

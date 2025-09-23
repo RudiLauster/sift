@@ -342,6 +342,9 @@
      </layout>
     </item>
     <item>
+     <widget class="QComboBox" name="comboBox"/>
+    </item>
+    <item>
      <widget class="QTableWidget" name="selectIDTable">
       <property name="sizeAdjustPolicy">
        <enum>QAbstractScrollArea::AdjustToContents</enum>

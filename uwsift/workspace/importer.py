@@ -38,7 +38,7 @@ import yaml
 from pyresample.geometry import AreaDefinition, StackedAreaDefinition, SwathDefinition
 from satpy import DataQuery, Scene, available_readers
 from satpy.dataset import DatasetDict
-from satpy.writers import get_enhanced_image
+from satpy.enhancements.enhancer import get_enhanced_image
 from xarray import DataArray
 
 from uwsift import USE_INVENTORY_DB, config

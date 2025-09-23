@@ -25,7 +25,7 @@ import trollsift.parser as fnparser
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtCore import QPoint
 from PyQt5.QtWidgets import QMenu
-from satpy.readers import find_files_and_readers, group_files
+from satpy.readers.core.grouping import find_files_and_readers, group_files
 
 from uwsift import config
 from uwsift.model.area_definitions_manager import AreaDefinitionsManager

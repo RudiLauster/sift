@@ -14,7 +14,7 @@ import logging
 
 from pyresample.area_config import AreaNotFound, load_area_from_string
 from pyresample.geometry import AreaDefinition
-from satpy.resample import get_area_def
+from satpy.area import get_area_def
 
 from uwsift import config
 
